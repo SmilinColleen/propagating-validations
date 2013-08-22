@@ -1,4 +1,5 @@
-source :rubygems
+# source :rubygems
+source "https://rubygems.org"
 
 # PostgreSQL driver
 gem 'pg'
@@ -17,7 +18,7 @@ gem 'bcrypt-ruby'
 
 gem 'shotgun'
 
-group :development, :test do
-  gem 'faker'
-  gem 'rspec'
-end
+# group :development, :test do
+#   gem 'faker'
+#   gem 'rspec'
+# end
